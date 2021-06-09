@@ -1,0 +1,8 @@
+{
+  "name": "vue-components",
+  "version": "0.0.0",
+  "description": "Component Library for Vue",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
