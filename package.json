@@ -1,8 +1,28 @@
 {
   "name": "vue-components",
   "version": "0.0.0",
-  "description": "Component Library for Vue",
+  "description": "My Component Library for Vue",
+  "license": "ISC",
+  "scripts": {
+    "build:lib": "webpack --config ./build/webpack.config.js",
+    "website-dev": "lerna run --scope website serve --parallel",
+    "website-build": "lerna run --scope website build",
+    "website-lint": "lerna run --scope website lint"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^5.2.6",
+    "lerna": "^4.0.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "vue-loader": "^15.9.7",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "vue-template-compiler": "^2.6.14"
   }
 }
