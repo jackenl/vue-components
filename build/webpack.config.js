@@ -7,13 +7,13 @@ function resolve(dir) {
 
 module.exports = {
   mode: 'production',
-  entry: resolve('../packages/h-comps/index.js'),
+  entry: resolve('../packages/i-comps/index.js'),
   output: {
     path: resolve('../lib'),
     publicPath: '/',
     filename: 'index.js',
     libraryTarget: 'umd',
-    library: 'HComps'
+    library: 'IComps'
   },
   module: {
     rules: [

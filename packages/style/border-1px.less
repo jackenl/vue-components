@@ -1,0 +1,37 @@
+@import './mixin/border-1px.less';
+
+[class*='i-border-1px'] {
+  &::after {
+    .border-1px();
+  }
+}
+
+.i-border-1px {
+  &,
+  &--top,
+  &--left,
+  &--right,
+  &--bottom {
+    position: relative;
+  }
+
+  &::after {
+    border-width: 1px;
+  }
+
+  &--top::after {
+    border-top-width: 1px;
+  }
+
+  &--left::after {
+    border-left-width: 1px;
+  }
+
+  &--right::after {
+    border-right-width: 1px;
+  }
+
+  &--bottom::after {
+    border-bottom-width: 1px;
+  }
+}

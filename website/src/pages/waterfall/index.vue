@@ -1,5 +1,5 @@
 <template>
-  <div class="demo">
+  <div class="container">
     <i-waterfall v-model="list">
       <template v-slot:left="{ leftList }">
         <div class="column">

@@ -25,7 +25,7 @@ module.exports = {
   //         {
   //           root: ['comps'],
   //           alias: {
-  //             '@h-comps': 'vue-components/lib'
+  //             '@i-comps': 'vue-components/lib'
   //           }
   //         }
   //       ]

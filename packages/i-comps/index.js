@@ -1,4 +1,4 @@
-import IWaterfall from '@h-comps/waterfall';
+import IWaterfall from '@i-comps/waterfall';
 
 const components = [
   IWaterfall

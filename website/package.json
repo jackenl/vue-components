@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "h-comps": "^1.0.0",
+    "i-comps": "^1.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1"
   },

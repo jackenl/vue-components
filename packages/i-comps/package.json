@@ -1,5 +1,5 @@
 {
-  "name": "@i-comps/waterfall",
+  "name": "i-comps",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@i-comps/style": "^1.0.0",
+    "@i-comps/waterfall": "^1.0.0"
+  }
 }

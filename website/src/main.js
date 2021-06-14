@@ -2,8 +2,10 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import HComps from 'h-comps';
-Vue.use(HComps);
+import IComps from 'i-comps';
+Vue.use(IComps);
+
+import 'i-comps/index.less';
 
 Vue.config.productionTip = false;
 
