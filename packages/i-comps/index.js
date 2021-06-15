@@ -1,7 +1,11 @@
 import IWaterfall from '@i-comps/waterfall';
+import IGrid from '@i-comps/grid';
+import IGridItem from '@i-comps/grid-item';
 
 const components = [
-  IWaterfall
+  IWaterfall,
+  IGrid,
+  IGridItem
 ];
 
 const install = (Vue) => {
@@ -11,7 +15,9 @@ const install = (Vue) => {
 };
 
 export {
-  IWaterfall
+  IWaterfall,
+  IGrid,
+  IGridItem
 };
 
 export default {
