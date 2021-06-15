@@ -4,6 +4,8 @@ import router from './router';
 
 import IComps from 'i-comps';
 Vue.use(IComps);
+import components from './components';
+Vue.use(components);
 
 import 'i-comps/index.less';
 
