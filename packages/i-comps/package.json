@@ -12,6 +12,7 @@
   "dependencies": {
     "@i-comps/grid": "^1.0.0",
     "@i-comps/grid-item": "^1.0.0",
+    "@i-comps/num-input": "^1.0.0",
     "@i-comps/style": "^1.0.0",
     "@i-comps/waterfall": "^1.0.0"
   }

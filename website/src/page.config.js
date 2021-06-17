@@ -1,14 +1,14 @@
 export default [
   {
     title: '瀑布流',
-    name: 'waterfall',
+    name: 'Waterfall',
     icon: '',
     path: '/waterfall'
   },
   {
-    title: '宫格',
-    name: 'grid',
+    title: '数字输入框',
+    name: 'NumInput',
     icon: '',
-    path: '/grid'
+    path: '/num-input'
   },
 ];

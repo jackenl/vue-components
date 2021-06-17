@@ -4,6 +4,7 @@
   "description": "My Component Library for Vue",
   "license": "ISC",
   "scripts": {
+    "bootstrap": "npx lerna bootstrap",
     "build:lib": "webpack --config ./build/webpack.config.js",
     "website-dev": "lerna run --scope website serve --parallel",
     "website-build": "lerna run --scope website build",
